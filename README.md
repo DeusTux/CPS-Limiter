@@ -10,7 +10,7 @@ I was too lazy to upload the app on AUR but you can download it this way.
 
 ```bash
 mkdir /tmp/cps-limiter-build
-curl -L https://raw.githubusercontent.com/DeusEge/CPS-Limiter/linux/PKGBUILD -o /tmp/cps-limiter-build/PKGBUILD
+curl -L https://raw.githubusercontent.com/DeusTux/CPS-Limiter/linux/PKGBUILD -o /tmp/cps-limiter-build/PKGBUILD
 (cd /tmp/cps-limiter-build && makepkg -si)
 rm -r /tmp/cps-limiter-build
 ```
